@@ -417,22 +417,210 @@ const quizData = {
             ]
         },
         {
-            nombre: "Ciencias",
+            nombre: "Bioinformática",
             preguntas: [
                 {
-                    id: 7,
-                    enunciado: "",
+                    id: 1,
+                    enunciado: "En una matriz de programación dinámica para alineamiento local, teniendo en cuenta una penalización por gap de -8, y utilizando una matriz de puntuación cuyo término más alto es 17, ¿cuál será el valor del término de una celda que tenga en las celdas superior, izquierda y superior izquierda, respectivamente, los siguientes valores: 6, 7, -18?",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1",
+                        b: "0",
+                        c: "-1",
+                        d: "-2"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 2,
+                    enunciado: "En una matriz de programación dinámica para alineamiento global, existe una celda que corresponde a la coincidencia de dos aminoácidos, la cual, según la matriz de puntuación utilizada, posee un valor de 16. Teniendo en cuenta una penalización por gap de -8, ¿cuál será el valor del término de esa celda si las celdas superior, izquierda y superior izquierda, respectivamente, poseen los siguientes valores: 6, 7, -19?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "-2",
+                        b: "0",
+                        c: "-1",
+                        d: "-3"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 3,
+                    enunciado: "En una matriz de programación dinámica para alineamiento semiglobal, existe una celda que corresponde a la coincidencia de dos aminoácidos concretos en la primera posición del alineamiento de dos secuencias. Teniendo en cuenta que existe una penalización por gap de -2, ¿cuál será el valor del término de esa celda?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "-2",
+                        b: "0",
+                        c: "-1",
+                        d: "2"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 4,
+                    enunciado: "Se han obtenido varios contigs que cubren por completo un genoma. Dichos fragmentos son de los siguientes tamaños, en Kbp: 440, 330, 320, 310, 205, 205, 144 y 46. ¿Qué tamaño en Kbp corresponde al N50?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "320",
+                        b: "310",
+                        c: "205",
+                        d: "144"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 5,
+                    enunciado: "Si en una secuencia de 100 residuos se han predicho bien 25, ¿Cuál es el Q3 de la predicción?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "25",
+                        b: "4",
+                        c: "1",
+                        d: "0.25"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 6,
+                    enunciado: "Elegir las palabras que completen correctamente el siguiente enunciado: Para obtener árboles filogenéticos _____________ de acuerdo a métodos bayesianos, se emplea ____________, mientras que para obtener árboles filogenéticos ______________ de acuerdo a métodos de ___________., se emplea __________",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "aditivos, bootstrapping, ultramétricos, de máxima verosimilitud, MCMC",
+                        b: "ultramétricos, MCMC, aditivos, máxima verosimilitud, bootstrapping",
+                        c: "bayesianos, bootstrapping, aditivos, ultramétricos, MCMC",
+                        d: "aditivos, MCMC, ultramétricos, bayesianos, bootstrapping"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 7,
+                    enunciado: "Elegir las palabras que completen correctamente el siguiente enunciado: Si, tras una ______________ de ADN, el fragmento intermedio entre dos ___________ se corresponde alguna otra lectura, todas estas lecturas se encuentran en el mismo ___________________",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "digestión, lecturas no apareadas, supercontig",
+                        b: "secuenciación, lecturas apareadas, locus",
+                        c: "secuenciación, lecturas apareadas, contig",
+                        d: "restricción, lecturas apareadas, cromosoma"
                     },
                     respuesta: ""
                 },
                 {
                     id: 8,
+                    enunciado: "Elegir las palabras que completen correctamente el siguiente enunciado: Si quiero obtener la secuencia de un fragmento de ___________ Kbp mediante secuenciación Sanger necesariamente tendré que _____________ posteriormente",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "500 bp, ensamblar",
+                        b: "500 bp, curar",
+                        c: "5000 bp, ensamblar",
+                        d: "5000 bp, aplicar enzimas de restricción"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 9,
+                    enunciado: "Elegir las palabras que completen correctamente el siguiente enunciado: Para secuenciar un fragmento largo de ADN, cuando se carece de  ___________ necesariamente hay que  ___________________",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Secuencias de referencia, secuenciar de novo",
+                        b: "Secuencias de referencia, resecuenciar",
+                        c: "Secuencias de referencia, ensamblar ",
+                        d: "Supercontigs, ensamblar"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 10,
+                    enunciado: "¿Cuáles de estos datos de entrada no son imprescindibles para generar árboles filogenéticos aditivos a partir de secuencias de nucleótidos?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Alineamientos curados", "Parámetros de cuantificación de tiempo", "Parámetros de la distribución gamma", "Modelo evolutivo"],
+                    },
+                    opciones: {
+                        a: "2, 3 y 4",
+                        b: "1, 2 y 4",
+                        c: "2 y 3",
+                        d: "1 y 4"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 11,
+                    enunciado: "¿Cuáles de estos datos de entrada no son imprescindibles para generar árboles filogenéticos aditivos a partir de secuencias de nucleótidos?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Alineamientos curados", "Parámetros de cuantificación de tiempo", "Parámetros de la distribución gamma", "Modelo evolutivo"],
+                    },
+                    opciones: {
+                        a: "2, 3 y 4",
+                        b: "1, 2 y 4",
+                        c: "2 y 3",
+                        d: "1 y 4"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 12,
+                    enunciado: "¿Cuáles de estas características ha de tener habitualmente un cebador para ser usado en una PCR de punto final?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Temperatura de anillado menor a la de elongación", "Elevado contenido en pares CG", "Menos de 30 nucleótidos ", "Más de 15 nucleótidos. "],
+                    },
+                    opciones: {
+                        a: "Todas",
+                        b: "Todas menos la 2",
+                        c: "Todas menos la 3",
+                        d: "1, 2 y 3"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 13,
+                    enunciado: "¿Cuáles de estas características ha de tener idealmente un buen barcode para identificación de especies de hongos?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Alta distancia genética interespecífica", "Baja distancia genética intraespecífica", "Pocas repeticiones", "Muchos intrones"],
+                    },
+                    opciones: {
+                        a: "Todas",
+                        b: "Todas menos la 2",
+                        c: "Todas menos la 3",
+                        d: "1 y 2"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 14,
+                    enunciado: "Relacione cada uno de estos programas bioinformáticos (números) con funciones (letras):",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Trimmomatic", "T-Coffee", "SAMtools", "FASTQC"],
+                        columna_2: ["Alineamiento", "Eliminación de adaptadores", "Manipulación de cierto tipo de archivos", "Análisis de calidad de fragmentos"]
+                    },
+                    opciones: {
+                        a: "1a, 2b, 3c, 4d",
+                        b: "1b, 2a, 3c, 4d",
+                        c: "1b, 2a, 3d, 4c",
+                        d: "1b, 2c, 3a, 4d"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 15,
+                    enunciado: "Relacione cada uno de estos procesos moleculares (números) con los efectos teóricamente más frecuentes (letras):",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Splicing alternativo", "Modificaciones post-traduccionales", "Poliadenilación alternativa", "Edición de transcritos"],
+                        columna_2: ["Cambios en la actividad proteica", "Cambios en la longitud de los trascritos", "Cambios en la longitud de las proteínas", "Cambios en la codificación de algún aminoácido"]
+                    },
+                    opciones: {
+                        a: "1c, 2b, 3c, 4d",
+                        b: "1c, 2a, 3b, 4d",
+                        c: "1b, 2a, 3d, 4c",
+                        d: "1b, 2c, 3a, 4d"
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 16,
                     enunciado: "",
                     tipo: "emparejamiento",
                     listas: {
@@ -448,7 +636,223 @@ const quizData = {
                     respuesta: ""
                 },
                 {
-                    id: 9,
+                    id: 17,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 18,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 19,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 20,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 21,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 22,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 23,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 24,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 25,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 26,
+                    enunciado: "",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                        columna_2: ["", "", "", ""]
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 27,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 28,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 29,
+                    enunciado: "",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                        columna_2: ["", "", "", ""]
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 30,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 77,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 88,
+                    enunciado: "",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                        columna_2: ["", "", "", ""]
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 99,
                     enunciado: "",
                     tipo: "ordenamiento",
                     listas: {
