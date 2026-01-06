@@ -1,4 +1,4 @@
-// =========================
+ // =========================
 // DATOS DEL QUIZ
 // =========================
 const quizData = {
@@ -453,7 +453,7 @@ const quizData = {
                         c: "-1",
                         d: "2"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 4,
@@ -465,7 +465,7 @@ const quizData = {
                         c: "205",
                         d: "144"
                     },
-                    respuesta: ""
+                    respuesta: "a"
                 },
                 {
                     id: 5,
@@ -477,7 +477,7 @@ const quizData = {
                         c: "1",
                         d: "0.25"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
                 {
                     id: 6,
@@ -489,7 +489,7 @@ const quizData = {
                         c: "bayesianos, bootstrapping, aditivos, ultramétricos, MCMC",
                         d: "aditivos, MCMC, ultramétricos, bayesianos, bootstrapping"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
                 {
                     id: 7,
@@ -501,7 +501,7 @@ const quizData = {
                         c: "secuenciación, lecturas apareadas, contig",
                         d: "restricción, lecturas apareadas, cromosoma"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 8,
@@ -513,7 +513,7 @@ const quizData = {
                         c: "5000 bp, ensamblar",
                         d: "5000 bp, aplicar enzimas de restricción"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 9,
@@ -525,7 +525,7 @@ const quizData = {
                         c: "Secuencias de referencia, ensamblar ",
                         d: "Supercontigs, ensamblar"
                     },
-                    respuesta: ""
+                    respuesta: "a"
                 },
                 {
                     id: 10,
@@ -540,7 +540,7 @@ const quizData = {
                         c: "2 y 3",
                         d: "1 y 4"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 11,
@@ -555,7 +555,7 @@ const quizData = {
                         c: "2 y 3",
                         d: "1 y 4"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 12,
@@ -570,7 +570,7 @@ const quizData = {
                         c: "Todas menos la 3",
                         d: "1, 2 y 3"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 13,
@@ -585,7 +585,7 @@ const quizData = {
                         c: "Todas menos la 3",
                         d: "1 y 2"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 14,
@@ -601,7 +601,7 @@ const quizData = {
                         c: "1b, 2a, 3d, 4c",
                         d: "1b, 2c, 3a, 4d"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 15,
@@ -617,212 +617,217 @@ const quizData = {
                         c: "1b, 2a, 3d, 4c",
                         d: "1b, 2c, 3a, 4d"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 16,
-                    enunciado: "",
+                    enunciado: "Relacione cada una de estas matrices (números) con sus objetivos (letras):",
                     tipo: "emparejamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
-                        columna_2: ["", "", "", ""]
+                        columna_1: ["De programación dinámica", "De puntuación por sustitución PAM", "De puntuación por sustitución BLOSUM", "De puntuación específicas de posición"],
+                        columna_2: ["Puntuación de alineamientos de secuencias", "Alineamientos de pares de secuencias", "Representación de motivos de secuencias", "Cuantificación de transcritos"]
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1b, 2a, 3a, 4c",
+                        b: "1c, 2a, 3a, 4d",
+                        c: "1b, 2b, 3d, 4c",
+                        d: "1c, 2c, 3a, 4d"
                     },
-                    respuesta: ""
+                    respuesta: "a"
                 },
                 {
                     id: 17,
-                    enunciado: "",
+                    enunciado: "¿Cuál fue el principal aporte de Margaret Dayhoff a la bioinformática?",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Introducción del método Sanger para secuenciación de ADN",
+                        b: "Desarrollo de algoritmos de alineamiento múltiple",
+                        c: "Creación del primer código de una letra para aminoácidos.",
+                        d: "Fundadora de la base de datos GenBank"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 18,
-                    enunciado: "",
+                    enunciado: "En el alineamiento de secuencias, ¿cuál es la principal función de las matrices de sustitución como PAM y BLOSUM?",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Convertir secuencias de proteínas en secuencias de ADN.",
+                        b: "Medir la cantidad de intrones presentes en un gen.",
+                        c: "Evaluar la probabilidad de sustitución entre aminoácidos.",
+                        d: "Determinar el número de copias de un gen"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 19,
-                    enunciado: "",
+                    enunciado: "El método de secuenciación desarrollado por __________ en 1977 permitió leer fragmentos de ADN mediante el uso de una polimerasa",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Mullis",
+                        b: "Maxam",
+                        c: "Sanger",
+                        d: "Watson"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 20,
-                    enunciado: "",
+                    enunciado: "En bases de datos bioinformáticas como GenBank, cada secuencia está identificada por un número de __________.",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "registro",
+                        b: "serie",
+                        c: "acceso",
+                        d: "edición"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 21,
-                    enunciado: "",
+                    enunciado: "Ordene los pasos típicos en el proceso de obtención y anotación de un genoma.",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["Ensamblaje del genoma", "Secuenciación del ADN", "Análisis de calidad de las lecturas", "Anotación funcional", "Anotación estructura"],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "2, 3, 1, 5, 4",
+                        b: "3, 2, 1, 4, 5",
+                        c: "2, 1, 3, 5, 4",
+                        d: "3, 1, 2, 5, 4"
                     },
-                    respuesta: ""
+                    respuesta: "a"
                 },
                 {
                     id: 22,
-                    enunciado: "",
+                    enunciado: "¿Qué término se utiliza para describir aquellas secuencias homólogas que se encuentran dentro de una misma especie y cuya similitud es atribuible a la descendencia de un gen común que se ha duplicado?",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Dominio estructural",
+                        b: "Ortólogo",
+                        c: "Parálogo",
+                        d: "UniGene"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 23,
-                    enunciado: "",
+                    enunciado: "Ordena cronológicamente los siguientes hitos históricos en el desarrollo de la Bioinformática, desde el más antiguo hasta el más reciente",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["Desarrollo del algoritmo de alineamiento en pares por Needleman-Wunsch.", "Desarrollo de COMPROTEIN por Dayhoff, el primer ensamblador de proteínas de novo.", "Desarrollo del método de secuenciación de proteínas por Edman.", "Lanzamiento del GCG Software en la U. de Wisconsin, la primera colección para análisis de ADN, ARN y proteínas."],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "3, 2, 1, 4",
+                        b: "2, 3, 1, 4",
+                        c: "3, 1, 2, 4 ",
+                        d: "2, 4, 1, 3"
                     },
-                    respuesta: ""
+                    respuesta: "a"
                 },
                 {
                     id: 24,
-                    enunciado: "",
+                    enunciado: "La matriz de puntuación final utilizada en el alineamiento de secuencias proteicas (como PAM o BLOSUM) se basa en la fórmula 𝑠𝑎,𝑏 = x𝑙𝑜𝑔𝑦 (𝑃𝑎,𝑏/𝑞𝑎𝑞𝑏) El cálculo compara la probabilidad de sustitución observada 𝑃𝑎,𝑏 con la probabilidad de sustitución por azar 𝑞𝑎𝑞𝑏 y el resultado se conoce como el puntaje de __________________.",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Probabilidad de fondo (Background probability)",
+                        b: "Razón de probabilidades logarítmicas (Log odds)",
+                        c: "Penalidad por 'gap'",
+                        d: "Distancia evolutiva"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 25,
-                    enunciado: "",
+                    enunciado: "Seleccione la opción que contiene únicamente herramientas de software que se utilizan en la etapa de cuantificación de transcritos o abundancia de isoformas en un proceso de análisis de RNASeq.",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["HTSeq-Count", "Salmon", "Kallisto", "Trimmomatic"],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1, 2, 4",
+                        b: "2, 3, 4",
+                        c: "1, 2, 3",
+                        d: "1, 3, 4"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 26,
-                    enunciado: "",
+                    enunciado: "Los siguientes términos se refieren a modelos matemáticos y enfoques metodológicos utilizados en el análisis filogenético de secuencias de nucleótidos: Indique cuál de las siguientes opciones es correcta.",
                     tipo: "emparejamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
-                        columna_2: ["", "", "", ""]
+                        columna_1: ["Jukes Cantor (JC69)", "GTR (General Time Reversible)", "Maximum Likelihood", "Bayesiano"],
+                        columna_2: ["Enfoque que se basa en 'priors' (conocimiento previo) y utiliza algoritmos Markov Chain Monte Carlo (MCMC) para producir árboles y dar soporte mediante 'posterior probabilities'", "Modelo de evolución donde se asume que el ritmo de sustitución es idéntico para cada cambio de base, siendo el modelo con 0 parámetros libres.", "Enfoque filogenético que estima la probabilidad de que los datos (alineamiento) sean correctos, dado un modelo de evolución y un árbol, eligiendo el árbol con el mayor likelihood", "Modelo evolutivo que considera 6 ritmos de sustitución diferentes y es el caso general del cual otros modelos son variaciones."]
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1b, 2d, 3a, 4c",
+                        b: "1a, 2c, 3d, 4b",
+                        c: "1c, 2a, 3b, 4d",
+                        d: "1b, 2d, 3c, 4a"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
                 {
                     id: 27,
-                    enunciado: "",
+                    enunciado: "Complete la siguiente frase: El término *bioinformática* se refiere al uso de __________ y __________ para el análisis de datos biológicos, con el fin de comprender la __________ y la __________.",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "secuencias y proteínas / estructura / evolución",
+                        b: "algoritmos y bases de datos / función / evolución",
+                        c: "enzimas y computadoras / transcripción / traducción",
+                        d: "cromosomas y genomas / replicación / variación"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 28,
-                    enunciado: "",
+                    enunciado: "¿Cuál de las siguientes afirmaciones describe correctamente un buen DNA barcode?",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Debe presentar alta variación intraespecífica y baja interespecífica",
+                        b: "Debe presentar alta variación interespecífica y baja intraespecífica",
+                        c: "Debe contener intrones y regiones no codificantes largas",
+                        d: "Debe amplificarse solo mediante primers universales"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 29,
-                    enunciado: "",
+                    enunciado: "Relacione el término con su descripción:",
                     tipo: "emparejamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
-                        columna_2: ["", "", "", ""]
+                        columna_1: ["Outgroup", "Reloj molecular estricto", "Homoplasia", "Bootstrap"],
+                        columna_2: ["Medida estadística de soporte para nodos en árboles filogenéticos", "Caracter compartido que no proviene de un ancestro común", "Secuencia utilizada para enraizar un árbol filogenético", "Hipótesis de ritmo constante de evolución entre linajes"]
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1c, 2d, 3b, 4a",
+                        b: "1a, 2c, 3d, 4b",
+                        c: "1b, 2d, 3a, 4c",
+                        d: "1d, 2b, 3a, 4c"
                     },
-                    respuesta: ""
+                    respuesta: "a"
                 },
                 {
                     id: 30,
-                    enunciado: "",
+                    enunciado: "Ordene correctamente algunos de los pasos del flujo de trabajo típico en un ensamblaje de novo de genomas:",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["Evaluación de calidad con FastQC", "Trimming con Trimmomatic", "Ensamblaje con SPAdes o Velvet", "Anotación con Prokka"],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "2, 3, 1, 4 ",
+                        b: "2, 1, 3, 4",
+                        c: "1, 3, 2, 4",
+                        d: "1, 2, 3, 4"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
+            ]
+        },
+        {
+            nombre: "Operaciones Unitarias",
+            preguntas: [
                 {
                     id: 77,
                     enunciado: "",
@@ -867,6 +872,6 @@ const quizData = {
                     respuesta: ""
                 },
             ]
-        }
+        },
     ]
 };
