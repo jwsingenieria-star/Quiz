@@ -823,10 +823,419 @@ const quizData = {
                     },
                     respuesta: "d"
                 },
-            ]
+            ],
         },
         {
             nombre: "Operaciones Unitarias",
+            preguntas: [
+                {
+                    id: 1,
+                    enunciado: " En la operación de destilación, ¿cuál es el objetivo principal de un plato teórico?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Separar los componentes sólidos de una mezcla.",
+                        b: "Mejorar la eficiencia de la transferencia de calor",
+                        c: "Aumentar la pureza de los componentes al equilibrar fases líquidas y vapores",
+                        d: "Facilitar la absorción de gases en líquidos"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 2,
+                    enunciado: "La ecuación de Stokes es utilizada para:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Determinar la viscosidad de líquidos en un sistema cerrado.",
+                        b: "Calcular la velocidad de sedimentación de partículas esféricas en un fluido",
+                        c: "Estimar la transferencia de masa en una torre de absorción",
+                        d: "Medir la eficiencia de un destilador flash"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 3,
+                    enunciado: "¿Cuál de los siguientes equipos se utiliza en la operación de filtración?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Columna de destilación",
+                        b: "Molino de bolas",
+                        c: "Filtro prensa",
+                        d: "Torre de enfriamiento"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 4,
+                    enunciado: "En una operación de extracción líquido-líquido, el coeficiente de reparto se define como:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "La relación de volúmenes entre el solvente y el soluto.",
+                        b: "La cantidad de soluto disuelto en la fase acuosa.",
+                        c: "La constante que indica la distribución de un soluto entre dos fases inmiscibles",
+                        d: "El volumen de disolvente necesario para extraer completamente el soluto."
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 5,
+                    enunciado: "¿Cuál es la ley principal que gobierna la absorción de gases en una torre de platos?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Ley de Dalton",
+                        b: "Ley de Henry",
+                        c: "Ley de Raoult",
+                        d: "Ley de Antoine"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 6,
+                    enunciado: "En una columna de destilación, el plato teórico se define como:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Un punto de equilibrio entre la fase líquida y la fase sólida.",
+                        b: "Un nivel en el que la mezcla se convierte completamente en fase vapor.",
+                        c: "Un nivel en el cual se alcanza el equilibrio entre fases líquida y vapor",
+                        d: "Una sección en la que solo ocurre la transferencia de cantidad de movimiento"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 7,
+                    enunciado: "¿Cuál de los siguientes equipos es el más adecuado para la remoción de sólidos finos suspendidos en un líquido?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Centrífuga",
+                        b: "Filtro prensa",
+                        c: "Decantador de gravedad",
+                        d: "Columna de absorción"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 8,
+                    enunciado: "Selecciona la ley que describe la relación entre presión parcial de un gas y su solubilidad en un líquido en condiciones de equilibrio:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Ley de Dalton",
+                        b: "Ley de Raoult",
+                        c: "Ley de Henry",
+                        d: "Ley de Fick"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 9,
+                    enunciado: "En una corriente involucrada en un proceso, para cambiar la velocidad de flujo molar a velocidad de flujo volumétrico, que factores de los listados a continuación se requieren.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Viscosidad, densidad",
+                        b: "Peso molecular, densidad",
+                        c: "Viscosidad, Peso molecular",
+                        d: "Peso específico, densidad"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 10,
+                    enunciado: "El proceso de _______________ se utiliza para separar los componentes de una mezcla en función de sus puntos de ebullición.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Sedimentación",
+                        b: "Destilación",
+                        c: "Filtración",
+                        d: "Absorción"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 11,
+                    enunciado: "En un diagrama de equilibrio de fases, el _______________ representa la concentración máxima de un componente en la fase líquida en equilibrio con la fase vapor.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "punto de burbuja",
+                        b: "punto de ebullición",
+                        c: "punto de rocío",
+                        d: "punto de fusión"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 12,
+                    enunciado: "La ecuación de _______________ permite calcular la presión de vapor en función de la temperatura para ciertos compuestos.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Antoine",
+                        b: "Henry",
+                        c: "Gibbs",
+                        d: "Fick"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 13,
+                    enunciado: "La _______________ es una operación unitaria en la que un componente es transferido de una fase líquida a una fase gaseosa mediante difusión.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "destilación",
+                        b: "desorción",
+                        c: "absorción",
+                        d: "extracción"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 14,
+                    enunciado: "Elija las palabras que completa correctamente la siguiente oración: Una Operación Unitaria constituye una ______de un proceso industrial en la que se producen ________ en un único __________",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Etapa; Transformaciones físicas de la materia; equipo",
+                        b: "Fase; Transformaciones químicas de la materia; dispositivo",
+                        c: "Fase; Transformaciones fisicoquímicas de la materia; equipo",
+                        d: "Etapa; Transformaciones biológicas de la materia; aparato"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 15,
+                    enunciado: "Escoge de las ecuaciones indicadas a continuación, cuál de ellas corresponden a mecanismos de transferencia de calor:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Ecuación de Newton de la viscosidad", "Ecuación de enfriamiento de Newton", "Ecuación de Fourier", "Ecuación de Stefan Boltzman"],
+                    },
+                    opciones: {
+                        a: "1, 2, 3",
+                        b: "2, 3, 4",
+                        c: "3, 4, 1",
+                        d: "4, 1, 2"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 16,
+                    enunciado: "En la Operación Unitaria de filtración normal se utilizan varios medios filtrantes para contener a las partículas sólidas de una suspensión, la torta formada con las partículas puede ser compresible. Indique qué factores varían en este tipo de lecho formado.",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Porosidad", "Factor de empaquetamiento", "Superficie específica", "Viscosidad"],
+                    },
+                    opciones: {
+                        a: "1",
+                        b: "1, 2",
+                        c: "1, 2, 3",
+                        d: "1, 2, 3, 4"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 17,
+                    enunciado: "¿Cuál de los siguientes equipos son utilizados en la remoción de sólidos finos suspendidos en un líquido?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Centrífuga", "Filtro prensa", "Sedimentador de gravedad", "Columna de absorción"],
+                    },
+                    opciones: {
+                        a: "2, 3, 4",
+                        b: "1, 2, 3",
+                        c: "3, 4, 1",
+                        d: "4, 1, 2"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 18,
+                    enunciado: "Relaciona cada operación unitaria con el tipo de transferencia que domina en su funcionamiento:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Destilación", "Filtración", "Secado", "Absorción"],
+                        columna_2: ["Transferencia de calor", "Transferencia de masa", "Transferencia de cantidad de movimiento", "Transferencia de masa y calor"]
+                    },
+                    opciones: {
+                        a: "1a, 2c, 3b, 4d",
+                        b: "1d, 2a, 3c, 4b",
+                        c: "1d, 2c, 3a, 4b",
+                        d: "1b, 2d, 3a, 4c"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 19,
+                    enunciado: "Relaciona cada tipo de equipo con su aplicación en operaciones unitarias:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Filtro prensa", "Columna de platos", "Secador rotatorio", "Triturador de mandíbula"],
+                        columna_2: ["Secado", "Reducción de tamaño", "Separación sólido-líquido", "Destilación fraccionada"]
+                    },
+                    opciones: {
+                        a: "1c, 2d, 3a, 4b",
+                        b: "1b, 2c, 3d, 4a",
+                        c: "1a, 2b, 3c, 4d",
+                        d: "1d, 2a, 3b, 4c"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 20,
+                    enunciado: "Relaciona cada tipo de transferencia con el principio físico que lo describe:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Calor", "Masa", "Cantidad de movimiento"],
+                        columna_2: ["Ley de Fourier", "Ley de Fick", "Ley de Newton"]
+                    },
+                    opciones: {
+                        a: "1a, 2c, 3b",
+                        b: "1a, 2b, 3c",
+                        c: "1c, 2a, 3b",
+                        d: "1b, 2a, 3c"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 21,
+                    enunciado: "Relaciona cada tipo de energía con el fenómeno de transferencia asociado:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Térmica", "Cinética", "Potencial"],
+                        columna_2: ["Transferencia de calor", "Transferencia de masa", "Transferencia de cantidad de movimiento"]
+                    },
+                    opciones: {
+                        a: "1a, 2c, 3b",
+                        b: "1c, 2b, 3a",
+                        c: "1a, 2b, 3c",
+                        d: "1b, 2c, 3a"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 22,
+                    enunciado: "Organiza las siguientes fases en un proceso de destilación con rectificación de una mezcla binaria:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Vaporización parcial de la mezcla", "Ascenso del vapor en la columna", "Condensación de los vapores en el cabezal", "Reflujo hacia la columna para mejorar la separación"],
+                    },
+                    opciones: {
+                        a: "1, 3, 4, 2",
+                        b: "1, 2, 3, 4",
+                        c: "2, 1, 4, 3",
+                        d: "4, 3, 2, 1"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 23,
+                    enunciado: "Ordena los siguientes pasos en la sedimentación de partículas sólidas en un líquido:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Formación de flóculos", "Movimiento descendente de partículas", "Compactación de partículas en el fondo", "Clarificación de la fase líquida superior"],
+                    },
+                    opciones: {
+                        a: "1, 2, 3, 4",
+                        b: "1, 3, 2, 4",
+                        c: "2, 4, 3, 1",
+                        d: "4, 1, 2, 3"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 24,
+                    enunciado: "Ordena los siguientes procedimientos en una operación de adsorción en columnas de lecho fijo:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Preparación y llenado del lecho adsorbente", "Paso de la corriente a tratar a través del lecho", "Saturación del adsorbente", "Regeneración del adsorbente mediante lavado o calentamiento"],
+                    },
+                    opciones: {
+                        a: "1, 2, 3, 4",
+                        b: "2, 3, 4, 1",
+                        c: "3, 1, 4, 2",
+                        d: "4, 3, 2, 1"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 25,
+                    enunciado: "Coloca en orden las etapas básicas del secado de sólidos en un secador continuo:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Alimentación del material húmedo al secador", "Calentamiento del material en la zona de secado", "Evaporación del agua superficial del sólido", "Descarga del material seco"],
+                    },
+                    opciones: {
+                        a: "1, 2, 3, 4",
+                        b: "1, 3, 2, 4",
+                        c: "2, 1, 4, 3",
+                        d: "3, 1, 2, 4"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 26,
+                    enunciado: "En una curva de secado, el periodo de velocidad constante se caracteriza por:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Reducción progresiva de la tasa de secado",
+                        b: "Alta temperatura en el centro de la partícula",
+                        c: "Transferencia constante de humedad superficial",
+                        d: "Inicio del calentamiento del aire"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 27,
+                    enunciado: "El rompimiento de células mediante homogenización se realiza aplicando __________ a través de una válvula de alta presión.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "presión mecánica",
+                        b: "fuerza centrífuga",
+                        c: "gradientes térmicos",
+                        d: "fricción estática"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 28,
+                    enunciado: "Selecciona las etapas necesarias para diseñar un proceso de secado de sólidos:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Determinación del contenido de humedad, construcción de curva de secado, elección del tipo de secador",
+                        b: "Evaluación del color, análisis microbiológico, estudio térmico",
+                        c: "Análisis de densidad, estimación de energía libre, validación sensorial",
+                        d: "Elección del solvente, extracción previa, condensación"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 29,
+                    enunciado: "Relaciona cada equipo con la propiedad física predominante en su diseño:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Molino de perlas", "Torre de absorción", "Secador rotatorio", "Filtro de presión"],
+                        columna_2: ["Tamaño de partícula", "Solubilidad de gases", "Transferencia de calor", "Porosidad del medio"]
+                    },
+                    opciones: {
+                        a: "1a, 2b, 3c, 4d",
+                        b: "1b, 2a, 3d, 4c",
+                        c: "1c, 2b, 3a, 4d",
+                        d: "1d, 2c, 3b, 4a"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 30,
+                    enunciado: "Ordena las etapas del proceso general de diseño de una operación unitaria de separación:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Identificación de las propiedades físico-químicas de los componentes", "Selección del tipo de operación unitaria adecuada", "Realización de balances de masa y energía", "Dimensionamiento y selección del equipo", "Evaluación del rendimiento del proceso"],
+                    },
+                    opciones: {
+                        a: "1, 2, 3, 4, 5",
+                        b: "2, 1, 3, 5, 4",
+                        c: "3, 1, 2, 4, 5",
+                        d: "1, 3, 2, 4, 5"
+                    },
+                    respuesta: "a"
+                },
+            ]
+        },
+        {
+            nombre: "Pendiente",
             preguntas: [
                 {
                     id: 77,
@@ -871,7 +1280,7 @@ const quizData = {
                     },
                     respuesta: ""
                 },
-            ]
-        },
+            ],
+        }
     ]
 };
