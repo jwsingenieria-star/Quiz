@@ -1235,6 +1235,803 @@ const quizData = {
             ]
         },
         {
+            nombre: "QPN",
+            preguntas: [
+                {
+                    id: 1,
+                    enunciado: "La biosíntesis de alcaloides derivados de la tirosina incluye una serie de reacciones que finalmente producen:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Morfina",
+                        b: "Curcumina",
+                        c: "Ácido salicílico",
+                        d: "Carotenoides"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 2,
+                    enunciado: "Cuál de las siguientes opciones pertenece a un monoterpeno",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "C15H24",
+                        b: "C10H16",
+                        c: "C40H64",
+                        d: "C30H48"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 3,
+                    enunciado: "¿Qué elemento es clave en la formación de diterpenos?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Isopreno",
+                        b: "Geranilgeranil pirofosfato (GGPP)",
+                        c: "Geranilfarnesil pirofosfato (FPP)",
+                        d: "Acetil-CoA"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 4,
+                    enunciado: "Un mecanismo de defensa frente a herbívoros es biosintetizar compuestos anti alimentarios, ¿cuál de los siguientes compuestos cumple esta función?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Alcaloides",
+                        b: "Sesquiterpenos",
+                        c: "Fenilpropanoides",
+                        d: "Carotenoides"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 5,
+                    enunciado: "Los _____________ son compuestos de defensa producidos por las plantas que pueden actuar como repelentes naturales contra insectos y microorganismos, provienen de la vía del ______ __________ para formar moléculas con cadenas de carbono múltiplo de 5.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Caritenoides - ácido shikímico",
+                        b: "Triterpenos - Falsos aminoácidos",
+                        c: "Monoterpenos - ácido mevalónico",
+                        d: "Glucosinolatos - ácido shikímico"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 6,
+                    enunciado: "Los __________ son un grupo de metabolitos secundarios que contienen nitrógeno y actúan frecuentemente como toxinas naturales en plantas para protegerse de los herbívoros, estos generalmente provienen de la descarboxilación de________________________.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Alcaloides – aminoácidos",
+                        b: "Alcaloides - Falsos aminoácidos",
+                        c: "Glucosinolatos – aminoácidos",
+                        d: "Glicósidos – Fenoles"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 7,
+                    enunciado: "Los flavonoides son un tipo de _______________ que desempeña funciones importantes en la protección contra la radiación ________________ y como antioxidantes en las plantas",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Aminoácidos – gama",
+                        b: "Fenoles - Infrarroja",
+                        c: "Alcaloide – Ultravioleta",
+                        d: "Fenoles – Ultravioleta"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 8,
+                    enunciado: "Los __________ son compuestos derivados de unidades de isopreno y forman uno de los grupos más grandes de metabolitos secundarios en las plantas como los ___________________con C20 o los________________C40.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Fenoles - Flavonides - Taninos",
+                        b: "Fenoles - fenilpropanoides - Cumarinas",
+                        c: "Terpenos - Diterpenos - tetraterpenos",
+                        d: "terpenos - Monoterpenos – Diterpenos"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 9,
+                    enunciado: "Relacionar los siguientes precursores con los compuestos a los que dan origen:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Fitoeno", "Geranil pirofosfato", "Geranil farnesil pirofosfato", "Escualeno"],
+                        columna_2: ["Monoterpenos", "Sesquiterpenis", "Triterpenos", "Tetraterpenos"]
+                    },
+                    opciones: {
+                        a: "1a, 2b, 3c, 4d",
+                        b: "1b, 2c, 3d, 4a",
+                        c: "1d, 2a, 3b, 4c",
+                        d: "1c, 2d, 3a, 4b"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 10,
+                    enunciado: "Relacionar las características principales con el tipo de compuesto al que corresponde:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Péptidos no ribosomales", "Terpenoides", "Alcaloides", "Fenoles"],
+                        columna_2: ["Absorben luz UV", "Interactúan con microbianos", "Altamente volátiles", "Interactúan con centros nerviosos"]
+                    },
+                    opciones: {
+                        a: "1a, 2b, 3c, 4d",
+                        b: "1b, 2c, 3d, 4a",
+                        c: "1d, 2a, 3b, 4c",
+                        d: "1c, 2d, 3a, 4b"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 11,
+                    enunciado: "Relacionar a los principios activos con los caminos biosintéticos de los cuales se originan:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Péptidos no ribosomales", "Terpenoides", "Alcaloides", "Fenoles"],
+                        columna_2: ["Ácido shikímico", "Ácido mevalónico", "Aminoácidos modificados", "Rutas Mixta aminoácidos y otras"]
+                    },
+                    opciones: {
+                        a: "1a, 2b, 3c, 4d",
+                        b: "1b, 2c, 3d, 4a",
+                        c: "1c, 2b, 3d, 4a",
+                        d: "1c, 2d, 3a, 4b"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 12,
+                    enunciado: "Relacionar cada precursor con el tipo de metabolito que ayuda a sintetizar:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Geranil pirofosfato (GPP)", "Triptófano", "Fenilalanina", "Acetil-CoA"],
+                        columna_2: ["Alcaloides", "Terpenoides", "Fenilpropanoides", "Poliquétidos"]
+                    },
+                    opciones: {
+                        a: "1a, 2b, 3c, 4d",
+                        b: "1b, 2a, 3c, 4d",
+                        c: "1c, 2b, 3d, 4a",
+                        d: "1c, 2d, 3a, 4b"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 13,
+                    enunciado: "Ordenar las etapas del proceso de obtención de compuestos orgánicos de interés de una fuente natural:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Purificación", "Extracción", "Aislamiento", "Determinación estructural", "Preparación de la muestra"],
+                    },
+                    opciones: {
+                        a: "a, b, c, d, e",
+                        b: "e, d, c, b, a",
+                        c: "a, c, d, b, e",
+                        d: "e, b, a, c, d"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 14,
+                    enunciado: "Ordenar los eventos históricos importantes en el establecimiento como ciencia a la Química de Productos Naturales:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Análisis de extractos a nivel de laboratorio", "Recetas medievales", "Venenos para la caza o pesca", "Uso de hierbas medicinales como medicamentos"],
+                    },
+                    opciones: {
+                        a: "a, b, c, d",
+                        b: "d, c, b, a",
+                        c: "c, b, d, a",
+                        d: "b, a, d, c"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 15,
+                    enunciado: "Organiza de manera ordenada las actividades necesarias para confirmar la estructura química de un compuesto:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Identificación y aislamiento de la molécula", "Comparación con Bases de datos", "Extracción en el laboratorio", "Estudios cromatográficos"],
+                    },
+                    opciones: {
+                        a: "a, b, c, d",
+                        b: "d, b, c, a",
+                        c: "c, d, a, b",
+                        d: "a, d, b, c"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 16,
+                    enunciado: "Ordena los pasos de la biosíntesis de terpenos a partir de sus precursores.",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Formación de pirofosfato de geranilo (GPP)", "Conversión a monoterpenos mediante monoterpeno sintasas", "Formación de unidades básicas de isopentenil pirofosfato (IPP)", "Modificaciones finales como oxidación y metilación"],
+                    },
+                    opciones: {
+                        a: "b, c, d, a",
+                        b: "c, a, b, d",
+                        c: "d, a, c, b",
+                        d: "a, b, c, d"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 17,
+                    enunciado: "¿Qué grupo de principios activos es el más relevante en la tolerancia al estrés abiótico?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Alcaloides que provienen de ornitina", "Hemiterpenos", "Flavonoides", "Diterpenos"],
+                    },
+                    opciones: {
+                        a: "b, c",
+                        b: "a, b",
+                        c: "a, c",
+                        d: "a, d"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 18,
+                    enunciado: "¿Qué molécula es precursora de los monoterpenos?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Farnesil pirofosfato (FPP)", "Geranil pirofosfato (GPP)", "Isopentenil pirofosfato (IPP)", "Neril pirofosfato (NPP)"],
+                    },
+                    opciones: {
+                        a: "b, c",
+                        b: "a, b",
+                        c: "a, c",
+                        d: "a, d"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 19,
+                    enunciado: "¿Cuál de los siguientes no es un producto del metabolismo secundario?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Antocianinas", "Prolina", "Ácido cítrico", "Saponinas"],
+                    },
+                    opciones: {
+                        a: "a, b",
+                        b: "b, c",
+                        c: "c, d",
+                        d: "a, d"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 20,
+                    enunciado: "¿Qué característica estructural es común en los fenilpropanoides?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Anillo bencénico con grupo amino", "Estructura de tres anillos fusionados", "Cadena de tres carbonos unida a un anillo aromático", "Presencia de heterociclos nitrogenados", "Son volátiles"],
+                    },
+                    opciones: {
+                        a: "a, b",
+                        b: "c, e",
+                        c: "b, c",
+                        d: "a, d"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 21,
+                    enunciado: "Los metabolitos secundarios son abundantemente producidos por:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "El ser humano",
+                        b: "Insectos",
+                        c: "Mamíferos",
+                        d: "Microorganismos"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 22,
+                    enunciado: "La vía metabólica que permite la síntesis de aminoácidos aromáticos en plantas se llama la vía del _______________ y da origen a una variedad de principios activos llamados________________.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Shikimato - Fenoles",
+                        b: "Terpenos - Cumarinas",
+                        c: "Terpenos - Diterpenos",
+                        d: "Alcaloides - Pirrolidínicos"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 23,
+                    enunciado: "Relaciona cada clase de metabolito con su rol ecológico principal en las plantas:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Terpenoides", "Fenilpropanoides", "Alcaloides", "Flavonoides"],
+                        columna_2: ["Defensa contra herbívoros", "Protección contra radiación ultravioleta", "Atracción de polinizadores", "Interacción con microorganismos"]
+                    },
+                    opciones: {
+                        a: "1a, 2b, 3c, 4d",
+                        b: "1b, 2a, 3c, 4d",
+                        c: "1c, 2d, 3a, 4b",
+                        d: "1d, 2a, 3b, 4c"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 24,
+                    enunciado: "Realiza un análisis crítico y global de los pesos Moleculares de los terpenos y ordena de forma ascendente las siguientes moléculas:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Sesquiterpenos", "Carotenoides", "Sesterpenos", "Monoterpenos"],
+                    },
+                    opciones: {
+                        a: "b, c, d, a",
+                        b: "c, b, d, a",
+                        c: "d, a, c, b",
+                        d: "a, b, c, d"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 25,
+                    enunciado: "¿Cuál de los siguientes compuestos pertenece a la clase de los terpenoides?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Morfina", "Limoneno", "Quercetina", "Cafeína", "Geraniol", "Pineno"],
+                    },
+                    opciones: {
+                        a: "a, b, c",
+                        b: "b, d, e",
+                        c: "a, d, f",
+                        d: "b, e, f"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 26,
+                    enunciado: " ¿Qué terpenos son esenciales en la comunicación química entre plantas e insectos?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Monoterpenos",
+                        b: "Sesquiterpenos",
+                        c: "Triperpenos",
+                        d: "Tetraterpenos"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 27,
+                    enunciado: "Ordenar los siguientes compuestos por su grado de volatilidad",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["Nicotina", "Limoneno", "licopeno", "Penicilina"],
+                    },
+                    opciones: {
+                        a: "a, b, c, d",
+                        b: "b, a, c, d",
+                        c: "c, d, b, a",
+                        d: "b, c, a, d"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 29,
+                    enunciado: "¿Qué factor influye directamente en la actividad biológica de los fenoles?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["La cantidad de átomos de nitrógeno", "La posición y número de grupos hidroxilo en el anillo aromático", "La longitud de la cadena lateral", "La cantidad de dobles enlaces conjugados"],
+                    },
+                    opciones: {
+                        a: "a, b",
+                        b: "b, c",
+                        c: "c, d",
+                        d: "b, d"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 30,
+                    enunciado: "Los alcaloides son compuestos orgánicos de origen natural que contienen al menos un átomo de ___________, responsable de la __________________y se caracterizan por presentar una marcada actividad ___________ sobre el sistema nervioso, razón por la cual muchos de ellos se emplean en la industria ___________.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Nitrógeno, alcalinidad, farmacológica, farmacéutica",
+                        b: "Oxígeno, polaridad, biológica, cosmética",
+                        c: "Nitrógeno, solubilidad, neurotóxica, psicotrópica",
+                        d: "Nitrógeno, alcalinidad, sicodélica, medicina"
+                    },
+                    respuesta: "a"
+                },
+            ],
+        },
+        {
+            nombre: "Biotecnología Ambiental",
+            preguntas: [
+                {
+                    id: 1,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 2,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 3,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 4,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 5,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 6,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 7,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 8,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 9,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 10,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 11,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 12,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 13,
+                    enunciado: "",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                        columna_2: ["", "", "", ""]
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 14,
+                    enunciado: "",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                        columna_2: ["", "", "", ""]
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 15,
+                    enunciado: "",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                        columna_2: ["", "", "", ""]
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 16,
+                    enunciado: "",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                        columna_2: ["", "", "", ""]
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 17,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 18,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 20,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 21,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 22,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 23,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 24,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 25,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 26,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 27,
+                    enunciado: "",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 28,
+                    enunciado: "",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                        columna_2: ["", "", "", ""]
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+                {
+                    id: 30,
+                    enunciado: "",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["", "", "", ""],
+                    },
+                    opciones: {
+                        a: "",
+                        b: "",
+                        c: "",
+                        d: ""
+                    },
+                    respuesta: ""
+                },
+            ],
+        },
+        {
             nombre: "Pendiente",
             preguntas: [
                 {
