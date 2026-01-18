@@ -2032,6 +2032,414 @@ const quizData = {
             ],
         },
         {
+            nombre: "Inmunología",
+            preguntas: [
+                {
+                    id: 1,
+                    enunciado: "La siguiente NO es una característica de la inmunidad innata:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Constituye la primera línea de defensa y actúa de manera rápida",
+                        b: "También se la conoce como inmunidad natural o nativa",
+                        c: "Consta de mecanismos de defensa celulares y señales químicas en respuesta a la reacción de microorganismos, células dañadas, entre otras.",
+                        d: "Es de alta especificidad"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 2,
+                    enunciado: "Luis sufre una infección por bacterias Gram-negativas. Su sistema inmunitario innato detecta rápidamente la infección. ¿Qué receptor de reconocimiento de patrones es más probable que se active en respuesta a los lipopolisacáridos (LPS) de la membrana de las bacterias Gram-negativas?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Receptor tipo Toll",
+                        b: "Receptor tipo RIG",
+                        c: "Receptor NOD2",
+                        d: "Receptor de manosa"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 3,
+                    enunciado: "Con relación a la respuesta inmune a infecciones virales, todas las afirmaciones son correctas, excepto:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Entre las células de la respuesta innata que intervienen se encuentran las células NK, macrófagos y células dendríticas.",
+                        b: "Existe producción de interferones.",
+                        c: "Hay ausencia de linfocitos CD8+.",
+                        d: "Hay producción anticuerpos alrededor de los 10 días después de la infección"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 4,
+                    enunciado: "Ante una infección causada por Leishmania mexicana:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Se activarán mastocitos",
+                        b: "Se liberarán mediadores inflamatorios.",
+                        c: "Habrá baja producción de IgE.",
+                        d: "Todas las anteriores."
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 5,
+                    enunciado: "En la maduración de los linfocitos T, hablamos de _____________ cuando los timocitos inmaduros expresan tanto los receptores _____________ en su membrana.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Doble negatividad - CD4+ y CD8+",
+                        b: "Selección positiva - CD4+ y CD8+",
+                        c: "Doble positividad – CD4+ y CD8+",
+                        d: "Selección negativa - CD4+ y CD8+"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 6,
+                    enunciado: "Las citocinas son proteínas de bajo peso molecular que juegan un rol importante en la transducción de señales. Algunos ejemplos de estas moléculas son los interferones, quimiocinas e interleucinas:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Alto peso molecular – quimiocinas e interleucinas",
+                        b: "Bajo peso molecular – quimiocinas e interleucinas",
+                        c: "Bajo peso molecular – opsoninas y perforinas.",
+                        d: "Alto peso molecular – inmunoglobulinas y quimiocinas."
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 7,
+                    enunciado: "La inflamación es una respuesta fisiológica a diversos estímulos, como infecciones y lesión tisular. Se distinguen dos fases: La fase aguda tiene un inicio rápido y dura poco, mientras que la fase crónica puede ser persistente y ocasionar consecuencias patológicas severas:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Inflamación – fase grave",
+                        b: "Inmunodeficiencia – fase aguda",
+                        c: "Inmunodeficiencia – fase grave",
+                        d: "Inflamación – fase aguda"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 8,
+                    enunciado: "Determinados componentes de la pared celular microbiana son capaces de activar el ____________, lo cual desencadena la ___________ y el daño a la membrana plasmática del patógeno.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Complemento – opsonización",
+                        b: "Interferón alfa – opsonización",
+                        c: "Complemento – reacción de hipersensibilidad",
+                        d: "Antígeno – respuesta inmune"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 9,
+                    enunciado: "En cuanto a la síntesis de anticuerpos en el cuerpo, el orden correcto de eventos es el siguiente:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1. Memoria inmunológica", "2. Activación de linfocitos B", "3. Reconocimiento del antígeno", "4. Producción de anticuerpos", "5. Proliferación y diferenciación"],
+                    },
+                    opciones: {
+                        a: "2, 3, 4, 5, 1",
+                        b: "3, 2, 5, 4, 1",
+                        c: "3, 5, 2, 1, 4",
+                        d: "4, 2, 5, 3, 1"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 10,
+                    enunciado: ".En cuanto al mecanismo mediado por anticuerpos para combatir una infección por bacterias extracelulares, el orden correcto de eventos es el siguiente:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1. Aumento de la respuesta inflamatoria gracias a la atracción de más neutrófilos y macrófagos al sitio de infección.", "2. El anticuerpo neutraliza las toxinas bacterianas", "3. Opsonización y fagocitosis de bacterias cubiertas por C3b.", "4. Lisis de las bacterias."],
+                    },
+                    opciones: {
+                        a: "1, 2, 3, 4",
+                        b: "3, 1, 2, 4",
+                        c: "2, 3, 1, 4",
+                        d: "2, 4, 3, 1"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 11,
+                    enunciado: ".Ordena los siguientes tipos de vacunas en función del nivel de respuesta inmunitaria esperada (de menor a mayor respuesta):",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1. Vacunas de subunidades", "2. Vacunas de vectores virales", "3. Vacunas de virus inactivados", "4. Vacunas de virus atenuados"],
+                    },
+                    opciones: {
+                        a: "1, 3, 2, 4",
+                        b: "3, 1, 4, 2",
+                        c: "4, 2, 1, 3",
+                        d: "1, 4, 2, 3"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 12,
+                    enunciado: "Ordena los siguientes tipos de anticuerpos en función de su concentración promedio en el suero humano (de menor a mayor):",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1. IgD", "2. IgE", "3. IgA", "4. IgG"],
+                    },
+                    opciones: {
+                        a: "4, 3, 2, 1",
+                        b: "1, 2, 4, 3",
+                        c: "2, 1, 3, 4",
+                        d: "1, 2, 4, 3"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 13,
+                    enunciado: "Relaciona los tipos de anticuerpos con sus características:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["IgM", "IgA", "IgG", "IgE"],
+                        columna_2: ["Presente en las secreciones como leche materna, saliva. Protege las mucosas.", "Atraviesa la placenta, neutraliza toxinas, interviene en la opsonización", "Es la primera respuesta inmunitaria", "Media las reacciones alérgicas y la defensa contra parásitos"]
+                    },
+                    opciones: {
+                        a: "1b, 2c, 3d, 4a",
+                        b: "4c, 3b, 1d, 2a",
+                        c: "1b, 2a, 3c, 4d",
+                        d: "1c, 2a, 3b, 4d"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 14,
+                    enunciado: "Relaciona los subtipos de linfocitos T con sus funciones:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["T ayudantes (helper)", "T citotóxicos", "T reguladores"],
+                        columna_2: ["Destruye células cancerosas o infectadas", "Mantienen la tolerancia inmunológica", "Previenen las enfermedades autoinmunes", "Activan macrófagos y linfocitos B y estimulan otras células inmunes"]
+                    },
+                    opciones: {
+                        a: "1a, 1b, 2c, 3d",
+                        b: "3a, 2b, 2c, 1d",
+                        c: "2d, 2c, 1b, 3a",
+                        d: "3b, 3c, 2a, 1d"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 15,
+                    enunciado: "Relaciona los siguientes conceptos al respecto de los linfocitos B",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Maduración de linfocitos B", "Activación de linfocitos B", "Anticuerpos", "Memoria inmunológica"],
+                        columna_2: ["Etapa en la cual los linfocitos B desarrollan receptores específicos de antígenos en la médula ósea", "Células de larga vida que se generan tras la exposición a un antígeno y responden rápidamente en infecciones futuras", "Moléculas producidas por linfocitos B activados que neutralizan antígenos", "Proceso en el que un linfocito B se une a un antígeno específico y comienza la expansión clonal"]
+                    },
+                    opciones: {
+                        a: "1a, 2d, 3c, 4b",
+                        b: "1b, 2a, 3d, 4c",
+                        c: "1c, 2d, 3a, 4b",
+                        d: "1d, 2a, 3c, 4d"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 16,
+                    enunciado: "Relaciona los modelos animales con su característica en el estudio de la inmunología:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Ratones transgénicos", "Ratones inmunodeficientes", "Pez cebra", "Conejo"],
+                        columna_2: ["Modelo útil para estudiar la función de genes específicos en el sistema inmunitario", "Modelo usado para evaluar anticuerpos y para estudios de inmunización.", "Organismo que permite la visualización en tiempo real del desarrollo inmunológico debido a su transparencia.", "Modelo utilizado en estudios de trasplantes y respuesta inmunológica en ausencia de linfocitos."]
+                    },
+                    opciones: {
+                        a: "1b, 2a, 3c, 4d",
+                        b: "1a, 2d, 3c, 4b",
+                        c: "1a, 2b, 3b, 4d",
+                        d: "1c, 2b, 3d, 4a"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 17,
+                    enunciado: "La respuesta inflamatoria consta de varias etapas. Ordénalas desde la primera en ocurrir hasta la última",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1. Reclutamiento de células inmunes al sitio de infección", "2. Liberación de mediadores inflamatorios", "3. Eliminación de patógenos", "4. Reparación tisular y resolución de la inflamación"],
+                    },
+                    opciones: {
+                        a: "2, 1, 3, 4",
+                        b: "2, 3, 4, 1",
+                        c: "1, 2, 3, 4",
+                        d: "1, 3, 2, 4"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 18,
+                    enunciado: "Ordena los eventos en el desarrollo de una enfermedad autoinmune (de primero a último):",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1. Activación de linfocitos autorreactivos a", "2. Presentación de autoantígenos a las células T b", "3. Reconocimiento erróneo de células propias como extrañas c", "4. Daño a los tejidos y síntomas clínicos d"],
+                    },
+                    opciones: {
+                        a: "3, 1, 2, 4",
+                        b: "3, 2, 1, 4",
+                        c: "1, 3, 2, 4",
+                        d: "1, 3, 4, 2"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 19,
+                    enunciado: "Ordena las etapas de diferenciación celular en la hematopoyesis de los linfocitos T (de etapa más temprana a etapa más avanzada):",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1. Célula madre hematopoyética", "2. Progenitor linfoide común", "3. Timocito (precursor de linfocito T)", "4. Linfocito T maduro"],
+                    },
+                    opciones: {
+                        a: "2, 1, 3, 4",
+                        b: "3, 2, 1, 4",
+                        c: "1, 2, 3, 4",
+                        d: "1, 3, 2, 4"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 20,
+                    enunciado: "Ordena las siguientes respuestas inmunológicas específicas contra una infección por helmintos (gusanos) (de primera a última):",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1. Activación de eosinófilos", "2. Producción de IgE específica contra el parásito", "3. Unión de IgE al parásito, facilitando la respuesta citotóxica", "4. Degranulación de eosinófilos y liberación de mediadores citotóxicos"],
+                    },
+                    opciones: {
+                        a: "1, 2, 3, 4",
+                        b: "4, 3, 2, 1",
+                        c: "3, 1, 2, 4",
+                        d: "2, 3, 1, 4"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 21,
+                    enunciado: "Los linfocitos T vírgenes reconocen antígenos presentados por:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Células epiteliales",
+                        b: "Neutrófilos",
+                        c: "Células dendríticas",
+                        d: "Eritrocitos"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 22,
+                    enunciado: "La función principal de los linfocitos B en la inmunidad adaptativa es:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Fagocitosis de bacterias",
+                        b: "Producción de anticuerpos",
+                        c: "Activación del complemento",
+                        d: "Presentación de antígenos a los neutrófilos"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 23,
+                    enunciado: " La expresión del complejo mayor de histocompatibilidad (MHC) clase II se limita principalmente a:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Todas las células nucleadas",
+                        b: "Células madre hematopoyéticas",
+                        c: "Células presentadoras de antígeno profesionales",
+                        d: "Linfocitos T"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 24,
+                    enunciado: "El principal coestimulador expresado por las células dendríticas para activar linfocitos T vírgenes es:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "CD8",
+                        b: "CD28",
+                        c: "B7",
+                        d: "IL-2"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 25,
+                    enunciado: "La fase de expansión clonal de los linfocitos T ocurre:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Antes del reconocimiento del antígeno",
+                        b: "Durante la presentación antigénica",
+                        c: "Tras la activación por antígeno y coestímulo",
+                        d: "Durante la diferenciación en células efectoras"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 26,
+                    enunciado: "La región ________ del anticuerpo determina su especificidad antigénica, mientras que la región ________ define su función efectora",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Fab – Fc",
+                        b: "Fc – Fab",
+                        c: "Variable – constante",
+                        d: "Ligadora – catalítica"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 27,
+                    enunciado: "El complejo principal de histocompatibilidad (MHC) clase I presenta péptidos derivados de _________, mientras que el MHC clase II presenta péptidos de _________.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Proteínas extracelulares – proteínas endógenas",
+                        b: "Proteínas endógenas – proteínas extracelulares",
+                        c: "Antígenos solubles – lípidos",
+                        d: "Ácidos nucleicos – carbohidratos"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 28,
+                    enunciado: "Durante la respuesta inmunitaria adaptativa, las células dendríticas activadas migran hacia los ganglios linfáticos para:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Activar macrófagos mediante IFN-γ",
+                        b: "Presentar antígenos a linfocitos T vírgenes",
+                        c: "Destruir antígenos mediante fagocitosis intracelular",
+                        d: "Secretar anticuerpos frente al antígeno"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 29,
+                    enunciado: "Ordene los siguientes eventos del reconocimiento antigénico de linfocitos T de manera secuencial:",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1. Activación del receptor TCR", "2. Expresión de IL-2 y su receptor", "3. Reconocimiento del antígeno presentado por MHC", "4. Proliferación clonal de linfocitos T"],
+                    },
+                    opciones: {
+                        a: "1, 2, 3, 4",
+                        b: "2, 4, 1, 3",
+                        c: "3, 1, 2, 4",
+                        d: "4, 2, 3, 1"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 30,
+                    enunciado: "Un paciente inmunizado con una vacuna de subunidades proteicas genera una respuesta dependiente de linfocitos T. ¿Qué tipo de linfocitos y citocinas son esenciales en este proceso?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Linfocitos Th1 e IFN-γ",
+                        b: "Linfocitos Th2, IL-4 e IL-5",
+                        c: "Linfocitos T citotóxicos e IL-2",
+                        d: "Linfocitos NK y TNF-α"
+                    },
+                    respuesta: "b"
+                },
+            ],
+        },
+        {
             nombre: "Pendiente",
             preguntas: [
                 {
