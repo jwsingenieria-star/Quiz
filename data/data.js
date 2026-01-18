@@ -1612,7 +1612,7 @@ const quizData = {
                         c: "c, d, b, a",
                         d: "b, c, a, d"
                     },
-                    respuesta: "d"
+                    respuesta: "b"
                 },
                 {
                     id: 29,
@@ -1648,386 +1648,386 @@ const quizData = {
             preguntas: [
                 {
                     id: 1,
-                    enunciado: "",
+                    enunciado: "Los contaminantes emergentes, también llamados contaminantes de preocupación emergente, son sustancias químicas o materiales que se detectan últimamente en las aguas y cuya presencia puede suponer un riesgo para el medio ambiente y salud humana, como por ejemplo: ",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Desechos animales",
+                        b: "Desechos vegetales ",
+                        c: "Cartón",
+                        d: "Antibióticos"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
                 {
                     id: 2,
-                    enunciado: "",
+                    enunciado: " ¿Cómo se llama el tratamiento preliminar de una planta de tratamiento de agua residual, que remueve materiales sólidos y protege al resto de la planta? Seleccione la respuesta correcta:",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Sedimentación",
+                        b: "Desbaste (rejillas o tamizador)",
+                        c: "Manta de lodos",
+                        d: "Clorinación"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 3,
-                    enunciado: "",
+                    enunciado: "El papel de los microorganismos en el tratamiento biológico es: ",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Eliminación de la DQO, sólidos suspendidos y estabilización de los SSVLM",
+                        b: "Convertir el alimento en compuestos inocuos como gases y microorganismos nuevos",
+                        c: "La eliminación de la DBO carbonosa, coagulación de sólidos coloidales no sedimentables y la estabilización de la materia orgánica",
+                        d: "Crecer, estabilizarse hasta llegar la fase de declinación endógena"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 4,
-                    enunciado: "",
+                    enunciado: "Se requiere realizar el tratamiento de un efluente de una industria láctea que tiene una DBO5 de 1000 mg/l a través de un proceso biológico en suspensión. La DBO5 de descarga de agua tratada debe cumplir normativa de descarga a un cauce para Quito (DBO 100 mg/l). La eficiencia de la planta de tratamiento sería: ",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "4% ",
+                        b: "24%",
+                        c: "90%",
+                        d: "99%"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 5,
-                    enunciado: "",
+                    enunciado: "El suelo del tipo _____________ presenta un tamaño de partículas __________ y presenta mayor efecto en propiedades de un suelo y > alta actividad superficial.",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Limoso – 0,002 – 0,05 mm",
+                        b: "Arcilloso – < 0,002 mm",
+                        c: "Arenoso – 0,05-2,00 mm",
+                        d: "Fangoso – 2 mm"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 6,
-                    enunciado: "",
+                    enunciado: "Una curva típica de la demanda biológica de oxígeno (DBO) para un agua residual se puede observar que primero aparece la oxidación de materia __________ seguida de la materia ___________. ",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "sulfurosa – carbónica",
+                        b: "nitrogenada – carbónica",
+                        c: "carbónica – nitrogenada",
+                        d: "sulfurosa – sulfúrica"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 7,
-                    enunciado: "",
+                    enunciado: "Advección es _________ de contaminantes conjuntamente con el flujo del __________ subterránea a velocidad de infiltración a través del medio poroso. ",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Movimiento – agua ",
+                        b: "Tratamiento – efluente ",
+                        c: "Movimiento – contaminante",
+                        d: "Tratamiento – agua"
                     },
-                    respuesta: ""
+                    respuesta: "a"
                 },
                 {
                     id: 8,
-                    enunciado: "",
+                    enunciado: "La pirólisis es un proceso ____________ que consiste en la descomposición de sustancias por medio de calor, en ausencia de _____________.",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Termo Biológico - oxígeno ",
+                        b: "Termoquímico – materia orgánica",
+                        c: "Termo Biológico – materia orgánica",
+                        d: "Termoquímico – oxígeno"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
                 {
                     id: 9,
-                    enunciado: "",
+                    enunciado: "Seleccione los parámetros de diseño que se debe contemplar para un proceso de sedimentación.",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["1. Tiempo de retención hidráulica", "2. Tiempo de retención celular ", "3. Carga de sólidos", "4. Carga hidráulica superficial ", "5. Relación alimento / microorganismo"],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1, 2, 3, 4, 5",
+                        b: "1, 2, 4 ",
+                        c: "1, 3, 4",
+                        d: "1, 2, 3, 4"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 10,
-                    enunciado: "",
+                    enunciado: "Elija las opciones de respuesta que afirman el concepto de Índice Volumétrico de lodos (IVL) ",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["1. Da una idea de la concentración de biomasa en mL/L en el biorreactor aerobio", "2. La relación alimento microorganismo A/M incrementa el IVL", "3. La velocidad crítica de sedimentación es un parámetro requerido para el cálculo de IVL ", "4. Las concentraciones de sólidos, flujos, tasas de recirculación de lodos hacia el biorreactor son parámetros     requeridos para el cálculo del IVL. ", "5. El ensayo consiste en dejar sedimentar el agua del biorreactor aireado durante 30 minutos."],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1, 2, 3, 4, 5",
+                        b: "1, 4, 5",
+                        c: "1, 2, 4, 5",
+                        d: "1, 3, 4, 5"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 11,
-                    enunciado: "",
+                    enunciado: "Elija de los siguientes procesos, cuáles corresponden a un tratamiento primario y secundario de una planta de tratamiento de aguas residuales PTAR.",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["1. Desbaste", "2. Clorinación", "3. Sedimentación primaria", "4. Tratamiento con luz ultravioleta (UV)", "5. Oxidación aeróbica", "6. Procesamiento de lodos "],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1, 2, 3 ",
+                        b: "6, 5, 4",
+                        c: "1, 3, 4",
+                        d: "3, 5, 6"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
                 {
                     id: 12,
-                    enunciado: "",
+                    enunciado: "Elija de los siguientes sistemas, cuales corresponden a un crecimiento suspendido (crecimiento bacteriano) ",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["1. Filtro biológico", "2. Lagunas de estabilización y variantes", "3. Biodisco ", "4. Lodos activados y variantes", "5. Filtro anaeróbico", "6. Reactor anaeróbico de flujo ascendente (residuales SS)"],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1, 3, 5",
+                        b: "2, 4, 6",
+                        c: "1, 2, 3",
+                        d: "4, 5, 6"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 13,
-                    enunciado: "",
+                    enunciado: "A nivel de esquema de una estructura de sedimentación (tratamiento de aguas residuales) se pueden distinguir cuatro zonas bien definidas. ",
                     tipo: "emparejamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
-                        columna_2: ["", "", "", ""]
+                        columna_1: ["Zona de salida", "Zona de entrada", "Zona de sedimentación", "Zona de sedimentos"],
+                        columna_2: ["Es la que tiene como misión lograr la mejor uniformidad de las líneas de corriente.", "Es donde se encauza al líquido clarificado hacia el o los canales que lo conducen a otras unidades de la planta de potabilización.", "Es en la que se considera que las partículas removidas en el proceso quedan retenidas.", "Es donde el régimen es uniforme y tiene lugar el fenómeno en estudio"]
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1d, 2c, 3b, 4a",
+                        b: "1b, 2a, 3d, 4c",
+                        c: "1a, 2b, 3c, 4d",
+                        d: "1c, 2b, 3a, 4d"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
                 {
                     id: 14,
-                    enunciado: "",
+                    enunciado: "Los siguientes conceptos han sido clasificados según el nivel de presión hidráulica o presión del acuífero",
                     tipo: "emparejamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
-                        columna_2: ["", "", "", ""]
+                        columna_1: ["Acuífero libre, no confinado", "Acuífero semiconfinado", "Acuífero confinado"],
+                        columna_2: ["No presentan formaciones impermeables. En ellos, la zona no saturada se localiza entre la superficie del terreno y el nivel freático y el agua está en contacto con el aire y a presión atmosférica.", "No están en contacto con la atmósfera debido a la presencia de materiales impermeables o confinantes. El agua satura en su totalidad los poros o grietas, de manera que al realizar perforaciones esta asciende hasta equilibrar la presión hidráulica con la atmosférica.", "Son acuíferos libres en contacto con los ríos, que están formados principalmente por materiales arcillosos, muy poco permeables.", "Son también acuíferos a presión, como los confinados, pero a diferencia de estos últimos, en ellos existe una mayor permeabilidad (se consideran acuitardos)"]
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1a, 2b, 3c",
+                        b: "1d, 2c, 3b",
+                        c: "1b, 2c, 3a",
+                        d: "1a, 2d, 3b"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
                 {
                     id: 15,
-                    enunciado: "",
+                    enunciado: "A continuación se detallan algunas modalidades de tratamiento biológico.",
                     tipo: "emparejamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
-                        columna_2: ["", "", "", ""]
+                        columna_1: ["Reactor mezcla completa", "Reaireación graduada", "Aireación prolongada ", "Reactor Bardenpho"],
+                        columna_2: ["Funciona en la fase de respiración endógena, se emplea en plantas prefabricadas para pequeñas comunidades.", "Sistema de biorreactores que se utiliza para eliminar . 2. Nutrientes de las aguas residuales, como el nitrógeno y el fósforo.", "Modificación de un reactor flujo pistón. Se aplican caudales de aireación diferentes a lo largo del canal en función de la demanda de oxígeno.", "Usa el régimen de flujo de un reactor de flujo continuo agitado. La carga orgánica y demanda de oxígeno son uniformes en toda la longitud del tanque."]
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1a, 2b, 3c, 4d",
+                        b: "1d, 2c, 3a, 4b",
+                        c: "1d, 2c, 3b, 4a",
+                        d: "1a, 2c, 3b, 4d"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 16,
-                    enunciado: "",
+                    enunciado: "Los siguientes conceptos están relacionados al mecanismo de transporte de un contaminante en suelos y acuíferos. Relacione los conceptos, leyes según el tipo de fenómeno de transporte.",
                     tipo: "emparejamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
-                        columna_2: ["", "", "", ""]
+                        columna_1: ["Advección", "Dispersión hidrodinámica", "Transferencia entre fases"],
+                        columna_2: ["Ley de Fick", "Ley de Henrry, Teoría de la Doble Capa de Lewis, Adsorción", "Conductividad hidráulica", "Porosidad"]
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1d, 2a, 3b",
+                        b: "1c, 2b, 3a",
+                        c: "1a, 2b, 3c",
+                        d: "1c, 2a, 3b"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
                 {
                     id: 17,
-                    enunciado: "",
+                    enunciado: "El suelo presenta una gran cantidad de contaminantes, como los siguientes: Ordenar los contaminantes del menos biodegradable al más biodegradable",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["1. Fenantreno", "2. Benzo[a]antraceno", "3. Metilnaftaleno", "4. Naftaleno "],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1, 2, 3, 4",
+                        b: "2, 1, 3, 4",
+                        c: "4, 3, 2, 1",
+                        d: "3, 4, 1, 2"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 18,
-                    enunciado: "",
+                    enunciado: "Ordena la aparición desde la primera a la última de las reacciones Redox aplicadas a la biodegradación de contaminantes orgánicos transformados.",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["1. Reducción Mn(IV) y Fe(III)", "2. Metanogénesis", "3. Desnitrificación", "4. Reducción sulfato", "5.  Aeróbico"],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1, 2, 3, 4, 5",
+                        b: "5, 4, 3. 2, 1",
+                        c: "5, 3, 1, 4, 2",
+                        d: "2, 4, 1, 3, 5 "
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 20,
-                    enunciado: "",
+                    enunciado: "Cuando se realiza un crecimiento de bacterias en un cultivo discontinuo. El modelo de crecimiento basado en el número de células sigue cuatro fases diferenciadas. Ordene las siguientes fases de crecimiento bacteriano.",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["1. Fase de retardo", "2. Fase de muerte", "3. Fase estacionaria", "4. Fase de crecimiento exponencial"],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "3, 1, 4, 2",
+                        b: "1, 2, 3, 4",
+                        c: "1, 3, 4, 2",
+                        d: "1, 4, 3, 2"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
                 {
                     id: 21,
-                    enunciado: "",
+                    enunciado: "¿Cuál de los siguientes tratamientos biológicos secundarios se caracteriza por una baja tasa de síntesis celular, lo que genera poca producción de lodos (relativamente estables), no requiere oxígeno (por lo tanto, consume poca energía), es adecuado para aguas residuales con alta carga orgánica y produce metano como subproducto energético?",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Eliminación de la DQO",
+                        b: "Proceso anaerobio",
+                        c: "Proceso aerobio",
+                        d: "Sedimentación"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 22,
-                    enunciado: "",
+                    enunciado: "El Desbaste (rejillas o tamizador), desarenado, trituración son procesos que permiten remover materiales sólidos y proteger al resto de la planta de tratamiento y son: ",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Tratamiento primario",
+                        b: "Tratamiento preliminar",
+                        c: " Tratamiento secundario ",
+                        d: "Clorinación"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 23,
-                    enunciado: "",
+                    enunciado: "Se requiere realizar el tratamiento de un efluente de una industria láctea que tiene una DBO5 de 2500 mg/l a través de un proceso biológico en suspensión. La DBO5 de descarga de agua tratada debe cumplir normativa de descarga a un cauce para Quito (DBO 250 mg/l). La eficiencia de la planta de tratamiento sería:",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "4%",
+                        b: "24%",
+                        c: "90%",
+                        d: "99%"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 24,
-                    enunciado: "",
+                    enunciado: "Complete la oración. _________ es proceso de tipo molecular mediante el cual el contaminante se mueve de regiones de alta concentración a regiones de baja concentración y se utiliza la ____________.",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Difusión – 1º ley de Fick ",
+                        b: "Advección -  1º ley de Fick",
+                        c: "Adsorción – 1º ley de Stokes",
+                        d: "Biodegradación – 1º ley de Stokes"
                     },
-                    respuesta: ""
+                    respuesta: "a"
                 },
                 {
                     id: 25,
-                    enunciado: "",
+                    enunciado: "Elija de los siguientes sistemas, cuales corresponden a un crecimiento adherido (crecimiento bacteriano)",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["1.  Filtro biológico", "2.  Lagunas de estabilización y variantes", "3.  Biodisco", "4.  Lodos activados y variantes", "5.  Filtro anaeróbico"],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1, 2, 3",
+                        b: "3, 4, 5",
+                        c: "2, 4, 5",
+                        d: "1, 3, 5"
                     },
-                    respuesta: ""
+                    respuesta: "d"
                 },
                 {
                     id: 26,
-                    enunciado: "",
+                    enunciado: "Se requiere realizar el tratamiento de un efluente de una industria petrolera que tiene una DBO5 de 1500 mg/l a través de un proceso biológico en suspensión. La DBO5 de descarga de agua tratada debe cumplir normativa descarga a un cauce para Quito (DBO 100 mg/l). La eficiencia de la planta de tratamiento sería:",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "4%",
+                        b: "24%",
+                        c: "93%",
+                        d: "99%"
                     },
-                    respuesta: ""
+                    respuesta: "c"
                 },
                 {
                     id: 27,
-                    enunciado: "",
+                    enunciado: "La dispersión hidrodinámica está compuesta por la _________ y la __________que definen la trayectoria tortuosa del flujo del contaminante en suelos. Dz = αvz + Dm",
                     tipo: "seleccion_simple",
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "Difusión molecular – Dispersión mecánica",
+                        b: "Conductividad hidráulica – coeficiente de distribución en el terreno",
+                        c: "Velocidad en el eje z – Coeficiente octanol agua ",
+                        d: "Constante de Henrry – Solubillidad del contaminante"
                     },
-                    respuesta: ""
+                    respuesta: "a"
                 },
                 {
                     id: 28,
-                    enunciado: "",
+                    enunciado: "Relacione la columna de parámetros de operación de un tratamiento biológico según su descripción",
                     tipo: "emparejamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
-                        columna_2: ["", "", "", ""]
+                        columna_1: ["Tiempo de retención Celular", "Tiempo de retención hidráulica", "Relación alimento / microorganismo", "Biodegradabilidad"],
+                        columna_2: ["Carga orgánica calculada a partir del flujo y concentración de DBO5, relacionada con la masa de sólidos suspendidos volátiles en el biorreactor", "Capacidad de los compuestos orgánicos para ser descompuestos por los procesos metabólicos de microorganismos como bacterias, que relaciona la demanda bioquímica de oxígeno con demanda química de oxígeno.", "Es el tiempo promedio en que el sustrato o agua permanece en el biorreactor", "Es el tiempo de permanencia de los microorganismos en un reactor biológico"]
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "1a, 2b, 3c, 4d",
+                        b: "1d, 2c, 3a, 4b",
+                        c: "1d, 2c, 3b, 4a",
+                        d: "1a, 2c, 3b, 4d"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
                 {
                     id: 30,
-                    enunciado: "",
+                    enunciado: "Conteste verdadero o falso y elija opción correcta",
                     tipo: "ordenamiento",
                     listas: {
-                        columna_1: ["", "", "", ""],
+                        columna_1: ["Al aumentar el tiempo de retención celular el lodo se hace más estable y mejoran sus características de sedimentación (__)", "La oxidación de la carga orgánica carbonácea siempre se realiza de manera conjunta con la nitrogenácea (__)", "El tiempo de retención celular puede ser igual al tiempo de retención hidráulica cuando un reactor no tiene recirculación (__)", "La modalidad de lodos activados de aireación prolongada permite la degradación de los contaminantes en fase exponencial (__)", "El tratamiento de lodos activados en un tratamiento de cultivo en suspensión (__)"],
                     },
                     opciones: {
-                        a: "",
-                        b: "",
-                        c: "",
-                        d: ""
+                        a: "V, V, F, F, V",
+                        b: "V, F, V, F, V",
+                        c: "F, F, V, F, V",
+                        d: "V, F, V, V, V"
                     },
-                    respuesta: ""
+                    respuesta: "b"
                 },
             ],
         },
