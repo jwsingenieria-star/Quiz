@@ -2440,6 +2440,395 @@ const quizData = {
             ],
         },
         {
+            nombre: "Biotecnología Animal",
+            preguntas: [
+                {
+                    id: 1,
+                    enunciado: "Si vamos a utilizar el método de vectores virales para la introducción de genes de interés en células somáticas, ¿cuál de los siguientes virus serían los más apropiados?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Retrovirus",
+                        b: "Adenovirus",
+                        c: "Herpesvirus",
+                        d: "Adenoasociados"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 2,
+                    enunciado: "¿Cuál de las siguientes pruebas de laboratorio pueden ser utilizadas en orden de importancia, si el objetivo es detectar animales con brucelosis bovina, contando con una muestra de suero sanguíneo y una muestra de restos del aborto?",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1.Cultivo in vitro ", "2.PCR", "3.ELISA INDIRECTO", "4.SAT (suero aglutinación en tubo) "],
+                    },
+                    opciones: {
+                        a: "1, 2, 3, 4",
+                        b: "2, 1, 4, 3",
+                        c: "3, 1, 2, 4",
+                        d: "1, 3, 2, 4"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 3,
+                    enunciado: "¿Cuál de las siguientes opciones en la que mejores condiciones asegura para transportar una muestra de leche para el diagnóstico de brucelosis, para que no se interfiera en la identificación del agente causante de la enfermedad?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Temperatura ambiente hasta 12 horas",
+                        b: "Refrigeración de 2 a 7 grados centígrados",
+                        c: "Temperatura ambiente hasta 6 horas",
+                        d: "Congelación por una semana"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 4,
+                    enunciado: "¿En orden de importancia, qué tipo de muestra y qué condiciones se debe asegurar para el diagnóstico de Fiebre Aftosa en bovinos en fase aguda con lesiones visibles, para que no se afecte la identificación del virus a través del uso de la prueba de PCR? (organice de mayor a menor importancia). ",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1.Secreción de la orofaringe a temperatura ambiente hasta 6 horas", "2.Secreción de la orofaringe en refrigeración hasta 12 horas", "3.Aftas o vesículas intactas a temperatura ambiente hasta 6 horas", "4.Aftas o vesículas intactas en refrigeración hasta 6 horas"],
+                    },
+                    opciones: {
+                        a: "1, 2, 4, 3",
+                        b: "4, 3, 1, 2",
+                        c: "3, 4, 1, 2",
+                        d: "2, 4, 3, 1"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 5,
+                    enunciado: "La presencia de espermatozoides con cabeza desprendida, evidenciado en el análisis _______________ del semen, se debe a problemas relacionados a __________________________",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "microscópico - patologías del testículo",
+                        b: "macroscópico - deficiencia de testosterona ",
+                        c: "microscópico - las vías de conducción del esperma",
+                        d: "microscópico – inmadurez del animal "
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 6,
+                    enunciado: "Si debemos seleccionar un crioprotector para evitar el daño celular durante la ultra congelación espermática, ¿cuál sería el crioprotector ideal en un protocolo de ultracongelación de velocidad rápida? ",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Glicerol",
+                        b: "Etilenglicol",
+                        c: "Albumina",
+                        d: "Leche"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 7,
+                    enunciado: "La transferencia de embriones es un método ampliamente utilizado en bovinos, relacione la enfermedad con la principal muestra a ser utilizada para su diagnóstico:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Diarrea viral bovina", "Rinotraqueitis infecciosa bovina", "Brucelosis ", "Campilobacteriosis"],
+                        columna_2: ["Secreción nasal", "Secreción vaginal", "Sangre", "Placenta"]
+                    },
+                    opciones: {
+                        a: "1a, 2b, 4c, 3d",
+                        b: "2a, 3b, 4c, d1",
+                        c: "1c, 2a, 3d, 4b",
+                        d: "4a, 2b, 3c, 1d"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 8,
+                    enunciado: "Que método es el más apropiado para realizar la recolección de semen en cerdos, para realizar la inseminación artificial, tomar en cuenta que esta especie tiene 3 fases de eyaculación:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Vagina artificial",
+                        b: "Método manual sin guante",
+                        c: "Método manual con guante ",
+                        d: "Estimulación de glándulas accesorias "
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 9,
+                    enunciado: "Para la elaboración de balanceados en equinos es necesario tomar en cuenta que hay algunas restricciones, a continuación, se enumeran algunas, ¿cuál de ellas es incorrecta? ",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "No se debe utilizar proteína de origen animal",
+                        b: "No se puede superar el 10% de grasa",
+                        c: "No se debe compactar el pellet",
+                        d: "No se utilizan granos crudos"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 10,
+                    enunciado: "El uso de antibióticos en la elaboración de los balanceados en aves es una práctica muy común en algunos países para reducir las diarreas, seleccione la opción más apropiada para reemplazarlos: ",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Usar prebióticos en el balanceado",
+                        b: "Usar probióticos en el agua de bebida",
+                        c: "Usar ácidos orgánicos en el balanceado",
+                        d: "Uso de simbióticos"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 11,
+                    enunciado: "La hipocuprosis es una las carencias más frecuentes en el mundo, indique cuál de los siguientes signos se han observado en bovinos:",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Menor resistencia a infecciones",
+                        b: "Disminución en la ganancia de peso",
+                        c: "Trastornos reproductivos",
+                        d: "Todas las anteriores"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 12,
+                    enunciado: "La transgénesis es una metodología que se está utilizando cada vez con más frecuencia en la investigación humana y animal. ¿Cuál de las siguientes opciones, se adapta mejor a la definición de la transgénesis en animales?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Utilización de un gen de un animal e incorporarlo en el genoma de otro de la misma especie",
+                        b: "Incorporación de un gen extraño al genoma de un animal",
+                        c: "Manipulación del genoma de un animal ",
+                        d: "Cambio del genoma de un animal mediante el uso de la biotecnología"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 13,
+                    enunciado: "Debemos utilizar crioprotectores para evitar el daño celular durante la ultra congelación espermática. ¿Cómo actúa el dimetilsulfoxido (DMSO) cuando es utilizado como crioprotector para conservación de esperma?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Reemplaza el agua intracelular por medio de radicales hidroxilo sin atravesar la membrana",
+                        b: "Previene acumulación de electrolitos y forma interacciones electrostáticas con fosfolípidos",
+                        c: "Aumenta osmolaridad, deshidrata la célula y forma complejos con iones metálicos",
+                        d: "Atraviesa la membrana espermática y desplaza el agua"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 14,
+                    enunciado: "¿Cuál de los siguientes métodos de tinción enumerados a continuación, son los más utilizados para identificar integridad de membranas espermáticas?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Verde rápido/eosina",
+                        b: "Zielh Nielsen",
+                        c: "Cristal viotela",
+                        d: "Coloración Gram"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 15,
+                    enunciado: "¿Cuál de las siguientes pruebas de laboratorio se utiliza para detectar la encefalopatía espongiforme bovina en animales?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "ELISA",
+                        b: "PCR",
+                        c: "Microscopia",
+                        d: "Ninguna"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 16,
+                    enunciado: "¿Cuál de las siguientes pruebas de laboratorio no se utiliza para detectar Tuberculosis bovina en animales?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "ELISA",
+                        b: "PCR",
+                        c: "Microscopia",
+                        d: "Cultivo"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 17,
+                    enunciado: "Seleccione el tipo de sal mineral utilizada en la elaboración de los diluyentes para semen bovino: ",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Cloruro de potasio",
+                        b: "Cloruro de calcio",
+                        c: "Cloruro de magnesio",
+                        d: "Sulfato de magnesio"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 18,
+                    enunciado: "¿Qué es la involución uterina?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Técnica de reproducción en bovinos",
+                        b: "Proceso normal del animal postparto",
+                        c: "Proceso degenerativo del útero",
+                        d: "Patología uterina"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 19,
+                    enunciado: "De las siguientes bacterias, ¿cuáles son utilizados como probióticos? ",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Bacilus vulgaris",
+                        b: "Bacilus antraxis",
+                        c: "Bifidobacterias spp",
+                        d: "Actinobacterias"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 20,
+                    enunciado: "Los ácidos orgánicos son utilizados en la crianza de aves, debido a su efecto benéfico, selección una de las siguientes alternativas descritas a continuación: ",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Disminución del tamaño del vientre",
+                        b: "Mayor viabilidad de los pollos bebé",
+                        c: "Aumento del tamaño del huevo",
+                        d: "Todas"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 21,
+                    enunciado: "¿Cuál de las siguientes pruebas de laboratorio pueden ser utilizadas en orden de importancia, si el objetivo es detectar animales con Brucelosis bovina, contando con una muestra de suero sanguíneo y una muestra de restos del aborto? ",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1. Cultivo in vitro", "2. PCR", "3. ELISA INDIRECTO ", "4. SAT (suero aglutinación en tubo)"],
+                    },
+                    opciones: {
+                        a: "1, 2, 3, 4",
+                        b: "2, 1, 4, 3",
+                        c: "3, 1, 2, 4",
+                        d: "1, 3, 2, 4"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 22,
+                    enunciado: "La presencia de espermatozoides con cabeza desprendida, evidenciado en el análisis _________________ del semen, se debe a problemas relacionados a ________________________ ",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "microscópico - patologías del testículo",
+                        b: "macroscópico - deficiencia de testosterona",
+                        c: "microscópico - las vías de conducción del esperma",
+                        d: "microscópico – inmadurez del animal "
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 23,
+                    enunciado: "¿Qué método es el más apropiado para realizar la recolección de semen en cerdos?, para realizar la inseminación artificial, tomar en cuenta que esta especie tiene tres fases de eyaculación: ",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Vagina artificial",
+                        b: "Método manual sin guante",
+                        c: "Método manual con guante ",
+                        d: "Estimulación de glándulas accesorias"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 24,
+                    enunciado: "La transgénesis es una metodología que se está utilizando cada vez con más frecuencia en la investigación humana y animal. ¿Cuál de las siguientes opciones, se adapta mejor a la definición de la transgénesis en animales? ",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Utilización de un gen de un animal e incorporarlo en el genoma de otro de la misma especie",
+                        b: "Incorporación de un gen extraño al genoma de un animal ",
+                        c: "Manipulación del genoma de un animal ",
+                        d: "Cambio del genoma de un animal mediante el uso de la biotecnología"
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 25,
+                    enunciado: "¿Cuál de las siguientes pruebas de laboratorio no se utiliza para detectar Tuberculosis bovina en animales? ",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "ELISA",
+                        b: "PCR",
+                        c: "Microscopia",
+                        d: "Cultivo"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 26,
+                    enunciado: "Relacione cada método de diagnóstico para Brucelosis bovina con su característica o descripción correspondiente. ",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Cultivo bacteriológico", "Rosa de Bengala", "Milk Ring Test (MRT)", "PCR", "ELISA competitivo"],
+                        columna_2: ["Se añade al mismo tiempo la muestra que contiene el antígeno a medir y el anticuerpo marcado con una enzima", "Prueba indirecta que detecta anticuerpos unidos a glóbulos de grasa de la leche, formando un anillo en la capa superior.", "Método directo que permite el aislamiento del agente etiológico del género Brucella spp.", "Método directo que amplifica fragmentos específicos del ADN de Brucella spp.", "Prueba rápida en placa que detecta anticuerpos IgG e IgM mediante una reacción antígeno anticuerpo."]
+                    },
+                    opciones: {
+                        a: "1c, 2e, 3b, 4d, 5a",
+                        b: "1a, 2d, 3b, 4e, 5c",
+                        c: "1b, 2a, 3c, 4d, 5e",
+                        d: "1e, 2c, 3a, 4d, 5b"
+                    },
+                    respuesta: "a"
+                },
+                {
+                    id: 27,
+                    enunciado: "Durante el proceso de aspiración folicular en biotecnología reproductiva, ¿cuál es el orden correcto de las etapas técnicas para la aspiración de ovocitos desde ovarios intactos en el laboratorio? ",
+                    tipo: "ordenamiento",
+                    listas: {
+                        columna_1: ["1. Identificación y selección de folículos visibles y aptos para aspiración.", "2. Lavado y preparación del material y medio adecuado para la recolección.", "3. Recuperación y búsqueda de los ovocitos en el medio colectado bajo estereomicroscopio.", "4. Aspiración cuidadosa del contenido folicular mediante el sistema de vacío controlado."],
+                    },
+                    opciones: {
+                        a: "1,4,2,3",
+                        b: "1,2,3,4",
+                        c: "3,1,2,4",
+                        d: "2,1,4,3"
+                    },
+                    respuesta: "d"
+                },
+                {
+                    id: 28,
+                    enunciado: " En las técnicas de transgénesis utilizadas en la producción animal, la técnica que presenta como principal inconveniente la integración aleatoria de copias del gen exógeno en el genoma del huésped es ________________________________.",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Vectores virales",
+                        b: "Transferencia de genes mediada por esperma ",
+                        c: "Microinyección pronuclear",
+                        d: "Clonación"
+                    },
+                    respuesta: "c"
+                },
+                {
+                    id: 29,
+                    enunciado: "Durante la extracción de ADN a partir de una muestra de sangre bovina, se utiliza EDTA en la etapa de lisis celular. ¿Cuál es la función principal de este compuesto en dicho proceso?",
+                    tipo: "seleccion_simple",
+                    opciones: {
+                        a: "Actuar como detergente para romper las membranas celulares.",
+                        b: "Inhibir las nucleasas al actuar como un agente quelante de iones metálicos como el Mg²⁺ y Ca²⁺.",
+                        c: "Facilitar la precipitación del ADN mediante la neutralización de cargas.",
+                        d: "Proveer un medio isotónico para mantener la integridad de los glóbulos rojos."
+                    },
+                    respuesta: "b"
+                },
+                {
+                    id: 30,
+                    enunciado: "Relacione cada medida de bioseguridad interna con su finalidad o descripción correspondiente dentro de un sistema de producción lechera:",
+                    tipo: "emparejamiento",
+                    listas: {
+                        columna_1: ["Establos separados para animales jóvenes y adultos", "Evitar movilidad de animales a la finca", "Control de acceso vehicular", "Cambios de ropa y equipo entre establos adecuados", "Aislamiento de animales enfermos", "Controlar el contacto con animales silvestres "],
+                        columna_2: ["Minimiza la entrada de agentes infecciosos a través de vehículos contaminados.", "Reduce el riesgo de introducción de enfermedades externas", "Evita la transmisión de enfermedades desde fauna silvestre al hato.", "Previene el contagio y facilita el manejo sanitario individual.", "Evita la transmisión de patógenos entre grupos etarios con distinta inmunidad.", "Disminuye la diseminación de patógenos entre áreas de producción."]
+                    },
+                    opciones: {
+                        a: "1–e, 2–b, 3–a, 4–f, 5–d, 6–c",
+                        b: "1–c, 2–b, 3–a, 4–d, 5–e, 6–f",
+                        c: "1–b, 2–c, 3–a, 4–f, 5–d, 6–e",
+                        d: "1–a, 2–b, 3–c, 4–d, 5–f, 6–e"
+                    },
+                    respuesta: "a"
+                },
+            ],
+        },
+        {
             nombre: "Pendiente",
             preguntas: [
                 {
